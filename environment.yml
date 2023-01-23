@@ -1,0 +1,18 @@
+# conda env create --file environment.yml
+name: tecnicas_ia
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - ipykernel
+  - pip
+  - pyprojroot
+  - python=3.10
+  - pip:
+    - pyhere
+    
